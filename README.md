@@ -1,6 +1,6 @@
 # Pong_JavaFX
 
-Pong game with Javafx for my Final exam
+Pong game with Javafx for my Mid exam
 
 Author: **Kutman Eshenkulov**
 
