@@ -41,5 +41,6 @@ all. [Here is full Code](https://github.com/Kutman7/Mid-Term-JavaFX/blob/main/sa
 * [x] Figma
 * [x] .jar File
 * [x] .exe File
-* [x] inheritance
+* [x] inheritance, polymorphism
 * [x] working with files
+* [x] UML diagram
