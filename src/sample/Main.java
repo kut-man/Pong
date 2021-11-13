@@ -19,11 +19,11 @@ public class Main extends Application {
     public void start(Stage window) throws FileNotFoundException {
         Pane root1 = new Pane();
         Scene scene1 = new Scene(root1);
-        Image img = new Image(new FileInputStream("D:\\Pong_Final_JavaFX\\src\\sample\\Pong.png"));
+        Image img = new Image(new FileInputStream("D:\\Pong\\src\\sample\\Pong.png"));
         ImageView image = new ImageView(img);
-        Image one = new Image(new FileInputStream("D:\\Pong_Final_JavaFX\\src\\sample\\one.png"));
+        Image one = new Image(new FileInputStream("D:\\Pong\\src\\sample\\one.png"));
         ImageView single = new ImageView(one);
-        Image two = new Image(new FileInputStream("D:\\Pong_Final_JavaFX\\src\\sample\\two.png"));
+        Image two = new Image(new FileInputStream("D:\\Pong\\src\\sample\\two.png"));
         ImageView couple = new ImageView(two);
 
         single.setFitWidth(150);
@@ -46,19 +46,15 @@ public class Main extends Application {
         root1.getChildren().addAll(onePlayer, twoPlayer);
 
         twoPlayer.setOnAction(actionEvent -> {
-            try {
-                Play play = new Play(false);
-                play.start(window);
-            } catch (FileNotFoundException ignore) {
-            }
+
+            Play play = new Play(false);
+            play.start(window);
+
         });
 
         onePlayer.setOnAction(actionEvent -> {
-            try {
-                Play play = new Play(true);
-                play.start(window);
-            } catch (FileNotFoundException ignore) {
-            }
+            Play play = new Play(true);
+            play.start(window);
         });
 
         window.setTitle("PONG");

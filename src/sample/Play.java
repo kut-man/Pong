@@ -10,8 +10,6 @@ import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
-import java.io.FileNotFoundException;
-
 public class Play {
     public static double leftPaddleY = 150;
     public static double rightPaddleY = 150;
@@ -56,7 +54,7 @@ public class Play {
         }
     };
 
-    public void start(Stage window) throws FileNotFoundException {
+    public void start(Stage window) {
         rec1.setFill(Color.BLACK);
         rec1.setStroke(Color.RED);
         rec2.setFill(Color.BLACK);
