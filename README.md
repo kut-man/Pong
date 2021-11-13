@@ -39,8 +39,7 @@ all. [Here is full Code](https://github.com/Kutman7/Mid-Term-JavaFX/blob/main/sa
 * [x] description
 * [x] screenshots
 * [x] Figma
-* [x] Dividing into many files
-* [x] naming convention
-* [x] Readme
 * [x] .jar File
 * [x] .exe File
+* [x] inheritance
+* [x] working with files
