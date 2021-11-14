@@ -33,7 +33,7 @@ rough and awkward.
 Control Keys: "W", "S" : "P", "L"
 
 That's all, I think you understood
-all. [Here is full Code](https://github.com/Kutman7/Mid-Term-JavaFX/blob/main/sample/Main.java).
+all. [Here is full Code](https://github.com/Kutman7/Pong/tree/main/src/sample).
 
 * [x] readme.md
 * [x] description
